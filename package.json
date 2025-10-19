@@ -1,0 +1,26 @@
+{
+  "name": "token-spawner",
+  "version": "1.0.0",
+  "description": "The Airdrop the Trenches Need - Powered by Helius Sender",
+  "main": "src/distribute.js",
+  "scripts": {
+    "distribute": "node src/distribute.js"
+  },
+  "keywords": [
+    "solana",
+    "airdrop",
+    "helius",
+    "pump-fun",
+    "web3"
+  ],
+  "author": "Token Spawner",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tokenspawner/token-spawner"
+  },
+  "homepage": "https://x.com/tokenspawner"
+}

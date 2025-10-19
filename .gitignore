@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Distribution logs
+distribution_log_*.json
+
+# Wallet snapshots (if storing locally)
+pumpfun_wallets_*.json
+pumpfun_wallets_*.txt
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Private keys (NEVER commit these!)
+keypair.json
+*.key
