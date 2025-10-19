@@ -12,9 +12,10 @@ distribution_log_*.json
 pumpfun_wallets_*.json
 pumpfun_wallets_*.txt
 
-# Environment files
+# Environment files (NEVER commit these!)
 .env
-.env.local
+.env.*
+!.env.example
 
 # IDE
 .vscode/

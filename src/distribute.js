@@ -2,9 +2,9 @@ const { Connection, Keypair, Transaction, SystemProgram, PublicKey, LAMPORTS_PER
 const fs = require('fs');
 const path = require('path');
 
-// Configuration
-const RPC_URL = "https://mainnet.helius-rpc.com/?api-key=d009b341-8551-40fa-aa5e-bae4ce0c8cf6";
-const SENDER_API_URL = "https://mainnet.helius-rpc.com/?api-key=d009b341-8551-40fa-aa5e-bae4ce0c8cf6";
+// Configuration - Load from environment variables
+const RPC_URL = process.env.RPC_URL || "YOUR_RPC_URL_HERE";
+const SENDER_API_URL = process.env.SENDER_API_URL || RPC_URL;
 
 // Load keypair from parent directory
 const keypairPath = path.join(__dirname, '..', '..', 'keypair.json');
