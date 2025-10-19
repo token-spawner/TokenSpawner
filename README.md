@@ -19,11 +19,9 @@
 
 ## 💥 WHAT THIS IS
 
-Mass airdrops at **web speed**. We're talking millions of wallets. What traditional platforms take days to process, we handle in under an hour.
+High-performance distribution infrastructure for Solana. Process millions of transactions in parallel. Traditional platforms take days—we complete in under an hour.
 
-**100% of Pump Fun creator trading fees** → **Every wallet that actually trades**
-
-No tokens. No votes. No claims. Just pure, direct deposits.
+**100% of Pump Fun creator trading fees** distributed to active traders. No tokens, no governance, no claim process.
 
 ---
 
@@ -70,25 +68,11 @@ No tokens. No votes. No claims. Just pure, direct deposits.
 
 ## 🎯 HOW IT WORKS
 
-<div align="center">
+**1. Collect** → Continuous accumulation of Pump Fun creator trading fees  
+**2. Snapshot** → Real-time tracking of active trading wallets  
+**3. Execute** → Instant distribution via Helius Sender at scale  
 
-```mermaid
-graph LR
-    A[Collect Fees] --> B[Snapshot Traders]
-    B --> C[Calculate Split]
-    C --> D[Mass Airdrop]
-    D --> E[90-Day Cycle]
-    E --> A
-```
-
-</div>
-
-**1. Collect** → Pump Fun creator trading fees pile up  
-**2. Snapshot** → Grab every wallet that traded in the last 90 days  
-**3. Calculate** → Split fees equally across all wallets  
-**4. Execute** → Send SOL directly via Helius Sender  
-
-Zero friction. Maximum fairness.
+Continuous collection. Immediate distribution.
 
 ---
 
@@ -112,7 +96,7 @@ Traditional Airdrops: Send → Wait → Send → Wait → Send...
 Token Spawner:       Send 1,000 transactions simultaneously
 ```
 
-That's not an improvement. That's a complete paradigm shift.
+Parallel processing at scale.
 
 ---
 
@@ -137,11 +121,11 @@ That's not an improvement. That's a complete paradigm shift.
 
 ## 🚀 THE MISSION
 
-**Returning value to the people who create it.**
+**Direct distribution to active traders.**
 
-The wallets grinding on Pump Fun every day deserve their share. Not in governance tokens. Not through complicated claims. In actual SOL, sent directly to their wallets.
+Pump Fun creator fees go straight to the wallets that trade. Real SOL, not tokens or governance rights. No claims, no delays.
 
-We're not building another governance layer. We're building distribution infrastructure that actually works.
+Distribution infrastructure built for performance.
 
 ---
 
