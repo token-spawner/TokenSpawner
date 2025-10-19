@@ -1,4 +1,4 @@
-![Token Spawner Banner](assets/banner.jpg)
+
 
 <div align="center">
   <img src="assets/logo.PNG" alt="Token Spawner" width="180"/>
