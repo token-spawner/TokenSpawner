@@ -23,19 +23,7 @@ High-performance distribution infrastructure for Solana. Process millions of tra
 
 **100% of Pump Fun creator trading fees** distributed to active traders. No tokens, no governance, no claim process.
 
----
 
-## 📊 THE NUMBERS
-
-```
-270,000+      Wallets Processed
-99.9%         Success Rate
-<1 sec        Transaction Confirmation
-15            Recipients Per Transaction
-1,000         Concurrent Transactions
-```
-
----
 
 ## ⚡ WHY TRADITIONAL AIRDROPS ARE BROKEN
 
@@ -120,10 +108,8 @@ Parallel processing at scale.
 
 | Metric | Value |
 |--------|------:|
-| **Total Wallets** | 270,000+ |
+| **Total Wallets** | 1.5m+ |
 | **Average Batch Size** | 15,000 transactions |
-| **Processing Time** | ~45 minutes |
-| **Success Rate** | 99.9% |
 | **Fee Per Transaction** | <$0.01 |
 | **Total Fees Saved** | $10,000+ |
 
