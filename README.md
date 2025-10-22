@@ -82,12 +82,24 @@ Continuous collection. Immediate distribution.
 
 | Technology | Purpose |
 |:----------:|:-------:|
+| **On-Chain Program** | Verifiable fee collection infrastructure |
 | **Helius Sender** | Ultra-low latency transaction submission with SWQOS |
 | **Helius RPC** | High-performance Solana infrastructure |
 | **Solana Web3.js** | Native blockchain integration |
 | **Node.js** | Async processing at scale |
 
 </div>
+
+### On-Chain Infrastructure
+
+Token Spawner operates with a deployed Solana program for transparent, verifiable fee collection:
+
+```
+Program ID: FeeCoXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Network: Mainnet
+```
+
+All fee collection is executed on-chain through the program, ensuring transparency and verifiability.
 
 ### The Difference
 
