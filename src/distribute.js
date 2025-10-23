@@ -13,24 +13,27 @@ const senderKeypair = Keypair.fromSecretKey(Uint8Array.from(keypairData));
 
 console.log("Sender Wallet:", senderKeypair.publicKey.toString());
 
-// Load wallet list from snapshot
+// Load wallet list from New_Query.csv
 function loadWalletList() {
-  const parentDir = path.join(__dirname, '..', '..');
-  const files = fs.readdirSync(parentDir);
-  const snapshotFiles = files.filter(f => f.startsWith('pumpfun_wallets_') && f.endsWith('_snapshot.json'));
+  const csvPath = path.join(__dirname, '..', '..', 'New_Query.csv');
   
-  if (snapshotFiles.length === 0) {
-    throw new Error("No snapshot file found! Run the snapshot tool first.");
+  if (!fs.existsSync(csvPath)) {
+    throw new Error("New_Query.csv not found! Please ensure the file exists.");
   }
   
-  const mostRecent = snapshotFiles
-    .map(f => ({ name: f, time: fs.statSync(path.join(parentDir, f)).mtime }))
-    .sort((a, b) => b.time - a.time)[0].name;
+  console.log(`Loading wallets from: New_Query.csv`);
   
-  console.log(`Loading wallets from: ${mostRecent}`);
+  const csvContent = fs.readFileSync(csvPath, 'utf8');
+  const lines = csvContent.split('\n');
   
-  const snapshot = JSON.parse(fs.readFileSync(path.join(parentDir, mostRecent), 'utf8'));
-  return snapshot.wallets.filter(w => w !== senderKeypair.publicKey.toString());
+  // Skip header row and filter out empty lines
+  const wallets = lines
+    .slice(1)
+    .map(line => line.trim())
+    .filter(line => line.length > 0)
+    .filter(w => w !== senderKeypair.publicKey.toString());
+  
+  return wallets;
 }
 
 async function getBalance(connection, pubkey) {

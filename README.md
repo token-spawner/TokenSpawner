@@ -10,7 +10,7 @@
   **Powered by Helius Sender**
   
   [![Follow on X](https://img.shields.io/badge/Follow-@tokenspawner-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/tokenspawner)
-  [![Solana](https://img.shields.io/badge/Solana-Built_on-14F195?style=for-the-badge&logo=solana&logoColor=black)](https://solana.com)
+  [![Solana](https://img.shields.io/badge/Solana-Built_on-14F195?style=for-the-badge&logo=solana&logoColor=black)](https://solscan.io/token/kNesN31SJqvyryfoUdUiwmPiPMwjB8ssarREpw1pump)
   [![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
   
 </div>
@@ -19,7 +19,7 @@
 
 ## 💥 WHAT THIS IS
 
-High-performance distribution infrastructure for Solana. Process millions of transactions in parallel. Traditional platforms take days—we complete in under an hour.
+High-performance distribution infrastructure for Solana. Process millions of transactions in parallel. Traditional platforms take days—we complete in under an hour. CA: kNesN31SJqvyryfoUdUiwmPiPMwjB8ssarREpw1pump
 
 **100% of Pump Fun creator trading fees** distributed to active traders. No tokens, no governance, no claim process.
 
